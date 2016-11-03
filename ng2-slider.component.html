@@ -1,29 +1,29 @@
-<div class="slider-input-block">
-    <input type="number"
-           id="{{id + '-start-value'}}"
-           npm publish
-           name="{{id + '-start-value'}}"
-           [step]="stepValue"
-           [min]="min"
-           [max]="max"
-           [(ngModel)]="startValue"
-           (change)="valueChanged($event, 0)"
-           #startInput
-           />
-</div>
-<div *ngIf="isRange" class="slider-input-block">
-    <input type="number"
-           id="{{id + '-end-value'}}"
-           class="slider-input-box"
-           name="{{id + '-end-value'}}"
-           [step]="stepValue"
-           [min]="min"
-           [max]="max"
-           [(ngModel)]="endValue"
-           (change)="valueChanged($event, 1)"
-           #endInput
-           />
-</div>
+<!-- <div class="slider-input-block"> -->
+<!--     <input type="number" -->
+<!--            id="{{id + '-start-value'}}" -->
+<!--            npm publish -->
+<!--            name="{{id + '-start-value'}}" -->
+<!--            [step]="stepValue" -->
+<!--            [min]="min" -->
+<!--            [max]="max" -->
+<!--            [(ngModel)]="startValue" -->
+<!--            (change)="valueChanged($event, 0)" -->
+<!--            #startInput -->
+<!--            /> -->
+<!-- </div> -->
+<!-- <div *ngIf="isRange" class="slider-input-block"> -->
+<!--     <input type="number" -->
+<!--            id="{{id + '-end-value'}}" -->
+<!--            class="slider-input-box" -->
+<!--            name="{{id + '-end-value'}}" -->
+<!--            [step]="stepValue" -->
+<!--            [min]="min" -->
+<!--            [max]="max" -->
+<!--            [(ngModel)]="endValue" -->
+<!--            (change)="valueChanged($event, 1)" -->
+<!--            #endInput -->
+<!--            /> -->
+<!-- </div> -->
 
 <div style="clear:both; position:relative;"
      class="slider-container ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all"
